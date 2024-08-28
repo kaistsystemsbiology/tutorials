@@ -6,38 +6,38 @@ iBridge
     :undoc-members: 
     :show-inheritance: 
     
-    iBridge running procedure
-    -------------------------
+iBridge running procedure
+-------------------------
 
-    **Note**: This project is to identify target reactions or metabolites that will enhance production of commercial chemicals through a metabolite-centric approach
-
-
-    1. Clone the repository
-
-    .. code-block::
-
-            $ git clone https://github.com/kaistsystemsbiology/iBridge.git
+**Note**: This project is to identify target reactions or metabolites that will enhance production of commercial chemicals through a metabolite-centric approach
 
 
-    2. Change the directory
+1. Clone the repository
 
-    .. code-block::
-            $ cd ibridge
+.. code-block::
 
-
-    3. Create and activate a virtual environment
-
-    .. code-block::
-
-            $ conda env create -f environment.yml
-            $ conda activate ibridge
+        $ git clone https://github.com/kaistsystemsbiology/iBridge.git
 
 
-    4. Install the virtual environment kernel into the jupyter
+2. Change the directory
 
-      .. code-block::
+.. code-block::
+        $ cd ibridge
 
-            $ python -m ipykernel install —user —name ibridge —display-name "ibridge"
 
-    
- -------
+3. Create and activate a virtual environment
+
+.. code-block::
+
+        $ conda env create -f environment.yml
+        $ conda activate ibridge
+
+
+4. Install the virtual environment kernel into the jupyter
+
+  .. code-block::
+
+        $ python -m ipykernel install —user —name ibridge —display-name "ibridge"
+
+
+-------

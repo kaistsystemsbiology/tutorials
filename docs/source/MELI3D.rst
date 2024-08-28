@@ -6,7 +6,7 @@ MELI-3D
     :undoc-members: 
     :show-inheritance: 
     
-    MELI-3D running procedure
-    
-    ------------------------------
+MELI-3D running procedure
+
+------------------------------
 

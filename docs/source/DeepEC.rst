@@ -2,9 +2,9 @@ DeepEC
 ======
 
 .. automodule:: DeepEC 
-:members: 
-:undoc-members: 
-:show-inheritance: 
+    :members: 
+    :undoc-members: 
+    :show-inheritance: 
 
 **DeepEC running procedure**
 

@@ -5,36 +5,36 @@ RetroPrecursorSelection
     :members: 
     :undoc-members: 
     :show-inheritance: 
-    
-    **Retro-precursor-selection running procedure**
-    
-    ------
 
-    **Note**
-    This source code works on Linux and has been tested on Ubuntu 16.04 with Python 3.6.
+**Retro-precursor-selection running procedure**
 
-    1. Clone the repository:
-    
-    .. code-block::
+------
 
-            $ git clone https://wdjang@bitbucket.org/kaistsystemsbiology/retro-precursor-selection.git
+**Note**
+This source code works on Linux and has been tested on Ubuntu 16.04 with Python 3.6.
 
-    2. Create and activate a conda environment (It takes less than 30 seconds):
-    
-    .. code-block::
+1. Clone the repository:
 
-            $ conda env create -f environment.yml
-            $ conda activate SSA
+.. code-block::
+
+        $ git clone https://wdjang@bitbucket.org/kaistsystemsbiology/retro-precursor-selection.git
+
+2. Create and activate a conda environment (It takes less than 30 seconds):
+
+.. code-block::
+
+        $ conda env create -f environment.yml
+        $ conda activate SSA
 
 
-    *Example*
-    
-    .. code-block::
+*Example*
 
-            $ python run_ssa.py -i 'CCCCN'[SMILES of target product] -o output[Name of output directory]
+.. code-block::
 
-    Three output files are generated in a folder that is newly created after computation: molecule_type.txt, predicted_precursors.txt, reaction_center.txt
+        $ python run_ssa.py -i 'CCCCN'[SMILES of target product] -o output[Name of output directory]
 
-    Run time of this source code is usually ~60 seconds.
-    
-    ------- 
+Three output files are generated in a folder that is newly created after computation: molecule_type.txt, predicted_precursors.txt, reaction_center.txt
+
+Run time of this source code is usually ~60 seconds.
+
+------- 

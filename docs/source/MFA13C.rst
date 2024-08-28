@@ -2,9 +2,9 @@
 ==================
 
 .. automodule:: MFA13C
-:members: 
-:undoc-members: 
-:show-inheritance: 
+    :members: 
+    :undoc-members: 
+    :show-inheritance: 
 
 **13C-MFA running procedure**
 
