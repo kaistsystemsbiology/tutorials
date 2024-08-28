@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'sysbiotech'
 copyright = '2024, MBEL'
 author = 'MBEL'
 

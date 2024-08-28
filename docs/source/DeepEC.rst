@@ -2,45 +2,45 @@ DeepEC
 ======
 
 .. automodule:: DeepEC 
-    :members: 
-    :undoc-members: 
-    :show-inheritance: 
-    
-    **DeepEC running procedure**
-    
-    ------
+:members: 
+:undoc-members: 
+:show-inheritance: 
 
-    **Note**: 
-    Size of the protein sequence input file should be adjusted according to the memory size of your computer. 
-    This source code was developed in Linux, and has been tested in Ubuntu 14.04 with Python 2.7, Python 3.4, Python 3.5 or Python 3.6. 
-    It should be noted that Python 3.7 is currently not supported.
+**DeepEC running procedure**
 
+------
 
-  
-    1. Clone the repository
-    
-    .. code-block::
+**Note**: 
+Size of the protein sequence input file should be adjusted according to the memory size of your computer. 
+This source code was developed in Linux, and has been tested in Ubuntu 14.04 with Python 2.7, Python 3.4, Python 3.5 or Python 3.6. 
+It should be noted that Python 3.7 is currently not supported.
 
 
-            $ git clone https://bitbucket.org/kaistsystemsbiology/deepec.git
-            
 
-    2. Create and activate a conda environment
-    
+1. Clone the repository
 
-    .. code-block::
-
-            $ conda env create -f environment.yml
-            $ conda activate deepec
-
-    3. Example
+.. code-block::
 
 
-    - Run DeepEC
-    
-    .. code-block::
+        $ git clone https://bitbucket.org/kaistsystemsbiology/deepec.git
 
-            $ python deepec.py -i ./example/test.fa -o ./output 
-    
-    
-    ------- 
+
+2. Create and activate a conda environment
+
+
+.. code-block::
+
+        $ conda env create -f environment.yml
+        $ conda activate deepec
+
+3. Example
+
+
+- Run DeepEC
+
+.. code-block::
+
+        $ python deepec.py -i ./example/test.fa -o ./output 
+
+
+------- 
